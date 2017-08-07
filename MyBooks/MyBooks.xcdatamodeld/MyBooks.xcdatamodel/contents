@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16B2657" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Kitap" representedClassName="Kitap" syncable="YES" codeGenerationType="class">
+        <attribute name="adi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icerik" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kategori" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Users2" representedClassName="Users2" syncable="YES" codeGenerationType="class">
+        <attribute name="email2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surname2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Yazar" representedClassName="Yazar" syncable="YES" codeGenerationType="class">
+        <attribute name="adi" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Kitap" positionX="189" positionY="999" width="128" height="88"/>
+        <element name="Users2" positionX="187" positionY="966" width="128" height="105"/>
+        <element name="Yazar" positionX="198" positionY="1017" width="128" height="60"/>
+    </elements>
+</model>
